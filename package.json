@@ -23,6 +23,7 @@
   "homepage": "https://github.com/nerkoux/Djs-V14#readme",
   "dependencies": {
     "discord.js": "^14.7.1",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "ms": "^2.1.3"
   }
 }
