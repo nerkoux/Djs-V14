@@ -1,0 +1,28 @@
+{
+  "name": "discord-v14-tutorial",
+  "version": "0.0.1",
+  "description": "Just a basic login bot with handler and events , easier for you to manage",
+  "main": "open.js",
+  "scripts": {
+    "test": "node open.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerkoux/Djs-V14.git"
+  },
+  "keywords": [
+    "Bot",
+    "discord",
+    "discord.js"
+  ],
+  "author": "VexR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nerkoux/Djs-V14/issues"
+  },
+  "homepage": "https://github.com/nerkoux/Djs-V14#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "moment": "^2.29.4"
+  }
+}
