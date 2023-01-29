@@ -30,7 +30,7 @@ Basic configuration
 
 - `token`, the token of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section
 - `owner_id`, You have to get it by enabling the discord developer mode from the DiscordApp.
-- `dbl_license`, // YOU CAN GET THIS FROM HERE - [Asistants Center](https://assistantscenter.com/discord-dashboard/v2)
+- `dbl_license`, // YOU CAN GET THIS FROM HERE - [Assistants Center](https://assistantscenter.com/discord-dashboard/v2)
 - `client_id`, the client id of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section
 - `client_secret`, the client secret of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section
 - `redirect_uri`, You have to add Redirect URI for the bot available on the [Discord Developers](https://discordapp.com/developers/applications/oauth2/general) section
