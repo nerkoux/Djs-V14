@@ -31,7 +31,6 @@ Basic configuration
 - `token`, the token of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section
 - `owner_id`, You have to get it by enabling the discord developer mode from the DiscordApp.
 - `dbl_license`, // YOU CAN GET THIS FROM HERE - [Asistants Center](https://assistantscenter.com/discord-dashboard/v2)
-- `app/guild`, the guild the slash command will be loaded to (this only applys if global is set to false)
 - `client_id`, the client id of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section
 - `client_secret`, the client secret of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section
 - `redirect_uri`, You have to add Redirect URI for the bot available on the [Discord Developers](https://discordapp.com/developers/applications/oauth2/general) section
