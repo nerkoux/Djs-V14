@@ -46,3 +46,12 @@ Without forgetting of course the code editor ^^
 Realized with ❤️ by [Vex[R]](https://github.com/nerkoux).
 
 Please do not withdraw the license and keep the credits on this project.
+
+
+### 😊 Startup the Project
+
+To run this project , type in Terminal
+
+```js
+node open.js
+```
