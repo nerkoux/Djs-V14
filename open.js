@@ -5,8 +5,16 @@ const { readdirSync } = require("fs")
 const moment = require("moment");
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v10');
+const webserver = require("./dashboard")
+
+
 
 let token = config.token
+let dbd_license = config.dbd_license
+let client_id = config.client_id
+let client_secret = config.client_secret
+let redirect_uri = config.redirect_uri
+
 
 bitbot.commands = new Collection()
 
@@ -57,6 +65,8 @@ process.on("uncaughtException", e => {
 process.on("uncaughtExceptionMonitor", e => { 
    console.log(e)
  })
-//
 
-bitbot.login(token)
+
+ bitbot.login(token)
+
+ webserver
