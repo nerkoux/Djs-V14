@@ -128,6 +128,12 @@ let langsSettings = {};
                                 commandUsage: "/ping",
                                 commandDescription: "Returns the bot's latency!",
                                 commandAlias: "alias"
+                            },
+                          {
+                                commandName: "help",
+                                commandUsage: "/help",
+                                commandDescription: "List all bot available commands!",
+                                commandAlias: "None"    
                             }
                         ]
                     }
