@@ -6,6 +6,7 @@ const DBD = require("discord-dashboard");
 const config = require("./configuration.js");
 
 
+let token = config.token
 let dbd_license = config.dbd_license
 let client_id = config.client_id
 let client_secret = config.client_secret
@@ -38,6 +39,7 @@ let langsSettings = {};
         theme: SoftUI({
             customThemeOptions: {
                 index: async ({ req, res, config }) => {
+                   const feeds = ["Current Users", "CPU", "System Platform", "Server Count"]
                     const cards = [
                         {
                             title: "CPU",
@@ -57,6 +59,7 @@ let langsSettings = {};
                     }
 
                     return {
+                        feeds,
                         cards,
                         graph
                     }
@@ -115,7 +118,7 @@ let langsSettings = {};
                 }
                 },
                 commands: [
-                 {
+                    {
                         category: "Info",
                         subTitle: "Information commands regarding the bot",
                         categoryId: "info", // No spaces or special characters
@@ -128,19 +131,16 @@ let langsSettings = {};
                                 commandUsage: "/ping",
                                 commandDescription: "Returns the bot's latency!",
                                 commandAlias: "alias"
-                            },
-                          {
-                                commandName: "help",
-                                commandUsage: "/help",
-                                commandDescription: "List all bot available commands!",
-                                commandAlias: "None"    
                             }
                         ]
                     }
                 ],
                 
       }),
-      settings: []
+      settings: [
+      ]
 });
 Dashboard.init()
 })();
+console.log(client_id)
+bitbot.login(token)
