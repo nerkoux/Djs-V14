@@ -17,12 +17,14 @@ Open the configuration file located in the main folder `configuration.js`.
 
 module.exports = {
     prefix: ",",
-    owner: "owner_id",
+    owner: ["ownerid"],
     token: "token",
-    dbd_license: "license_id", // YOU CAN GET THIS FROM HERE - https://assistantscenter.com/discord-dashboard/v2
+    dbd_license: "license", // YOU CAN GET THIS FROM HERE - https://assistantscenter.com/discord-dashboard/v2
     client_id: "client_id", // YOU CAN GET THIS FROM HERE - https://discord.com/developers/applications
-    client_secret: "client_secret", // YOU CAN GET THIS FROM HERE - https://discord.com/developers/applications
-    redirect_uri: "redirect_uri", // YOU HAVE TO ADD REDIRECT URI ON THI PAGE - https://discord.com/developers/applications/{client_id}/oauth2/general
+    client_secret: "client_Secret", // YOU CAN GET THIS FROM HERE - https://discord.com/developers/applications
+    port: port,
+    domain: "domain",
+    redirectUri: "/discord/callback",
   }
 ```
 
