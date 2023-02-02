@@ -59,4 +59,4 @@ node open.js
 ```
 
 ### Status
-[](https://github.com/nerkoux/Djs-V14/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/nerkoux/Djs-V14/actions/workflows/npm-publish-github-packages.yml)
+[Updates](https://github.com/nerkoux/Djs-V14/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/nerkoux/Djs-V14/actions/workflows/npm-publish-github-packages.yml)
