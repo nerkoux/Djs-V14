@@ -58,5 +58,3 @@ To run this project , type in Terminal
 node open.js
 ```
 
-### Status
-[Updates](https://github.com/nerkoux/Djs-V14/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/nerkoux/Djs-V14/actions/workflows/npm-publish-github-packages.yml)
