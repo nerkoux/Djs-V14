@@ -143,6 +143,12 @@ let langsSettings = {};
                                 commandUsage: "/avatar",
                                 commandDescription: "Shows the user avatar!",
                                 commandAlias: "None"
+                            },
+                            {
+                                commandName: "fake-tweet",
+                                commandUsage: "/faketweet",
+                                commandDescription: "Shows the fake tweet!",
+                                commandAlias: "None"
                             }
                         ]
                     }
