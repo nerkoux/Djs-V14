@@ -144,14 +144,61 @@ let langsSettings = {};
                                 commandDescription: "Shows the user avatar!",
                                 commandAlias: "None"
                             },
+                        ]
+                    },
+                    {
+                        category: "Fun",
+                        subTitle: "Fun commands regarding the bot",
+                        categoryId: "fun", // No spaces or special characters
+                        hideAlias: true, // Optional - Default: false - Hides the alias from all commands in the category
+                        hideDescription: false, // Optional - Default: false - Hides the description from all commands in the category
+                        hideSidebarItem: false, // Optional - Default: false - Hides the category from the sidebar
+                        list: [
+                            {
+                                commandName: "blue",
+                                commandUsage: "/blue",
+                                commandDescription: "Returns the blue filtered avatar!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "blurple",
+                                commandUsage: "/blurple",
+                                commandDescription: "Blurple command on avatar!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "cat",
+                                commandUsage: "/cat",
+                                commandDescription: "Cat filtered avatar!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "comrade",
+                                commandUsage: "/comrade",
+                                commandDescription: "Shows the comrade based avatar!",
+                                commandAlias: "None"
+                            },
                             {
                                 commandName: "fake-tweet",
-                                commandUsage: "/faketweet",
-                                commandDescription: "Shows the fake tweet!",
+                                commandUsage: "/fake-tweet",
+                                commandDescription: "Shows the fake tweet , tweeted by user!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "hyperlink",
+                                commandUsage: "/hyperlink",
+                                commandDescription: "Converts the hyperlink into string!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "triggered",
+                                commandUsage: "/triggered",
+                                commandDescription: "Triggered based avatar!",
                                 commandAlias: "None"
                             }
                         ]
                     }
+
                 ],
                 
       }),
