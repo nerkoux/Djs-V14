@@ -57,3 +57,17 @@ To run this project , type in Terminal
 ```js
 node open.js
 ```
+
+
+## Authors
+
+- [@nerkoux](https://www.github.com/nerkoux)
+
+
+## Tutorial
+
+https://www.youtube.com/watch?v=pwq0sJpi7ZA
+
+## Feedback
+
+If you have any feedback, please reach out to me at our discord server
