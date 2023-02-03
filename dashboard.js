@@ -122,7 +122,7 @@ let langsSettings = {};
                         category: "Info",
                         subTitle: "Information commands regarding the bot",
                         categoryId: "info", // No spaces or special characters
-                        hideAlias: false, // Optional - Default: false - Hides the alias from all commands in the category
+                        hideAlias: true, // Optional - Default: false - Hides the alias from all commands in the category
                         hideDescription: false, // Optional - Default: false - Hides the description from all commands in the category
                         hideSidebarItem: false, // Optional - Default: false - Hides the category from the sidebar
                         list: [
@@ -136,6 +136,12 @@ let langsSettings = {};
                                 commandName: "help",
                                 commandUsage: "/help",
                                 commandDescription: "Shows all the bot available commands!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "avatar",
+                                commandUsage: "/avatar",
+                                commandDescription: "Shows the user avatar!",
                                 commandAlias: "None"
                             }
                         ]
