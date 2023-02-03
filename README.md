@@ -1,4 +1,3 @@
-![ background image](https://wallpaperaccess.com/full/1268171.jpg) 
 # Discord Bot Version V14 With Dashboard 
 
 A complete code to download for a discord bot and have a great start out of it 🎧
