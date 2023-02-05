@@ -1,5 +1,6 @@
 const config = require("../configuration.js");
 let prefix = config.prefix
+let emoji = config.emoji
 
 module.exports = {
 	name: 'messageCreate',
@@ -10,6 +11,9 @@ module.exports = {
   let cmd = args.shift()?.toLowerCase();
   const command = client.prefixcommand.get(cmd)
   if(!command) return;
+  if (command.inVoiceChannel && !message.member.voice.channel) {
+    return message.channel.send(`${emoji.error} | You must be in a voice channel!`)
+  }
   if(command){
     command.run(client, message, args)
   }
