@@ -1,3 +1,6 @@
+const config = require("../configuration.js");
+let emoji = config.emoji
+
 module.exports = {
   name: 'volume',
   aliases: ['v', 'set', 'set-volume'],
