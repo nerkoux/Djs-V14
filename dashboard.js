@@ -197,6 +197,143 @@ let langsSettings = {};
                                 commandAlias: "None"
                             }
                         ]
+                    },
+                    {
+                        category: "Music",
+                        subTitle: "Music commands regarding the bot",
+                        categoryId: "music", // No spaces or special characters
+                        hideAlias: true, // Optional - Default: false - Hides the alias from all commands in the category
+                        hideDescription: false, // Optional - Default: false - Hides the description from all commands in the category
+                        hideSidebarItem: false, // Optional - Default: false - Hides the category from the sidebar
+                        list: [
+                            {
+                                commandName: "autoplay",
+                                commandUsage: ",autoplay",
+                                commandDescription: "Autoplays the music after the queue ends!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "filters",
+                                commandUsage: ",filters",
+                                commandDescription: "Applies the variety of filters to make music exciting!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "forward",
+                                commandUsage: ",forward",
+                                commandDescription: "Forwards the music!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "join",
+                                commandUsage: ",join",
+                                commandDescription: "Joins the channel where you're in!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "leave",
+                                commandUsage: ",leave",
+                                commandDescription: "Leaves the channel",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "nowplaying",
+                                commandUsage: ",nowplaying",
+                                commandDescription: "Shows the current playing song!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "pause",
+                                commandUsage: ",pause",
+                                commandDescription: "Pauses the music!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "play",
+                                commandUsage: ",play",
+                                commandDescription: "Plays the music!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "playskip",
+                                commandUsage: ",playskip",
+                                commandDescription: "Skips to the next one!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "playtop",
+                                commandUsage: ",playtop",
+                                commandDescription: "Plays the top music of the queue!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "previous",
+                                commandUsage: ",previous",
+                                commandDescription: "Plays the previous song!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "queue",
+                                commandUsage: ",queue",
+                                commandDescription: "Shows the queue of the server!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "repeat",
+                                commandUsage: ",repeat [song,queue]",
+                                commandDescription: "Repeats the music!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "resume",
+                                commandUsage: ",resume",
+                                commandDescription: "Resumes the music of the queue!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "rewind",
+                                commandUsage: ",rewind [time]",
+                                commandDescription: "Rewinds the music according the time you entered!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "seek",
+                                commandUsage: ",seek [time]",
+                                commandDescription: "Seeks the music according the time you entered!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "shuffle",
+                                commandUsage: ",shuffle",
+                                commandDescription: "Shuffles the music in the queue!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "skip",
+                                commandUsage: ",skip",
+                                commandDescription: "Skips the music!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "skipto",
+                                commandUsage: ",skipto [song number]",
+                                commandDescription: "Skips to the particular song number you want!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "stop",
+                                commandUsage: ",stop",
+                                commandDescription: "Stops the music in the server!",
+                                commandAlias: "None"
+                            },
+                            {
+                                commandName: "volume",
+                                commandUsage: ",volume [volume]",
+                                commandDescription: "Changes the volume of music!",
+                                commandAlias: "None"
+                            }
+                            
+                        ]
                     }
 
                 ],
