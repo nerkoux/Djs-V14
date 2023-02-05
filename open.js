@@ -17,17 +17,26 @@ let redirect_uri = config.redirect_uri
 
 
 bitbot.commands = new Collection()
+bitbot.prefixcommand = new Collection();
 
 const rest = new REST({ version: '10' }).setToken(token);
 
 const log = l => { console.log(`[${moment().format("DD-MM-YYYY HH:mm:ss")}] ${l}`) };
 
-// COMMAND HANDLER INTERACTION //
+// slashCOMMAND HANDLER //
 const commands = [];
 readdirSync('./commands').forEach(async file => {
   const command = require(`./commands/${file}`);
   commands.push(command.data.toJSON());
   bitbot.commands.set(command.data.name, command);
+})
+
+
+// prefixCOMMAND HANDLER //
+const prefixcommands = [];
+readdirSync('./prefixCommands').forEach(async file => {
+  const command = require(`./prefixCommands/${file}`);
+  bitbot.prefixcommand.set(command.name, command);
 })
 
 
@@ -66,7 +75,5 @@ process.on("uncaughtExceptionMonitor", e => {
    console.log(e)
  })
 
-
- bitbot.login(token)
-
+bitbot.login(token)
  webserver
