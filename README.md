@@ -25,6 +25,14 @@ module.exports = {
     port: port,
     domain: "domain",
     redirectUri: "/discord/callback",
+    emoji: {
+      "play": "▶️",
+      "stop": "⏹️",
+      "queue": "📄",
+      "success": "☑️",
+      "repeat": "🔁",
+      "error": "❌"
+    }
   }
 ```
 
