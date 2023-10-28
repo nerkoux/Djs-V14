@@ -53,7 +53,7 @@ To use the project correctly you will need some tools.
 
 Without forgetting of course the code editor ^^
 
-Realized with ❤️ by [Vex[R]](https://github.com/nerkoux).
+Realized with ❤️ by [Akshat Mehta](https://github.com/nerkoux).
 
 Please do not withdraw the license and keep the credits on this project.
 
